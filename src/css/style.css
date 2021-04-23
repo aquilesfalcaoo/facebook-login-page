@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #3a3b3c;
+}
+
+/* Conteúdo Principal */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 780px;
+  width: 100%;
+  background: #242526;
+  margin-top: -60px;
+}
+
+.main-texto img {
+  height: 106px;
+  width: 301px;
+}
+
+.main-texto h2 {
+  color: #fff;
+  display: block;
+  font-family: Helvetica;
+  font-size: 1.75em;
+  font-weight: normal;
+  margin-left: 30px;
+  margin-top: -15px;
+  width: 500px;
+}
+
+.main-form {
+  background-color: #3a3b3c;
+  border-radius: 8px;
+  height: 349px;
+  width: 396px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  margin-left: 65px;
+}
+
+/* Formulário */
+
+.login-form input {
+  background-color: #2e2f30;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  height: 52px;
+  margin-left: 16px;
+  margin-top: 15px;
+  padding: 20px;
+  width: 364px;
+}
+
+.login-form button {
+  background-color: #2e2f30;
+  color: #fff;
+  width: 364px;
+  height: 48px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 16px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login-form button:hover {
+  background-color: #242526;
+}
+
+.login-form a {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 0.875em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  width: 364px;
+  height: 1px;
+  border-color: #909397;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.login-form a:last-child {
+  background-color: #2e2f30;
+  border-radius: 6px;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  width: 166px;
+  height: 48px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.login-form a:last-child:hover {
+  text-decoration: none;
+  background-color: #242526;
+}
+
+.texto-form {
+  margin-top: 55px;
+  font-family: Helvetica;
+  font-size: 0.875em;
+  color: #fff;
+}
+
+.texto-form a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.texto-form a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+.rodapé {
+  background-color: #3a3b3c;
+  text-align: center;
+  width: 100%;
+  padding-top: 35px;
+}
+
+.rodapé ul li {
+  display: inline-block;
+  padding: 5px 7px;
+}
+
+.rodapé ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 12px;
+}
+
+.rodapé ul li a:hover {
+  text-decoration: underline;
+}
